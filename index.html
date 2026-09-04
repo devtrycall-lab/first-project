@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="devabdellah — creative developer crafting cinematic digital experiences."
+    />
+    <title>devabdellah — creative developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="loader" id="loader" aria-label="Loading portfolio">
+      <span>AT</span>
+      <i></i>
+    </div>
+
+    <div class="grain" aria-hidden="true"></div>
+    <div class="deadpool-mark" aria-label="Decorative white mask mark" role="img"></div>
+
+    <header class="topbar">
+      <a class="brand" href="#identity" aria-label="devabdellah home">
+        <span>AT</span>
+        <b>devabdellah</b>
+      </a>
+
+      <nav class="slice-nav" aria-label="Primary navigation">
+        <button class="nav-dot is-active" data-target="identity" aria-label="Go to Hero">
+          <span>01</span>
+        </button>
+        <button class="nav-dot" data-target="work" aria-label="Go to Work">
+          <span>02</span>
+        </button>
+        <button class="nav-dot" data-target="contact" aria-label="Go to Contact">
+          <span>03</span>
+        </button>
+      </nav>
+
+      <div class="availability"><span class="pulse"></span>OPEN TO OPPORTUNITY</div>
+    </header>
+
+    <main>
+      <section class="slice hero" id="identity" data-index="01">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span>01</span> CREATIVE DEVELOPER</p>
+          <h1>devabdellah</h1>
+          <p class="tagline">Designing clear experiences with motion, code, and intent.</p>
+          <p class="intro">
+            I build polished digital experiences that feel cinematic, deliberate, and useful — blending
+            front-end craft, visual storytelling, and sharp UX decisions into products people enjoy using.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contact">Start a project <span>↗</span></a>
+            <a class="button button-quiet" href="#work">View my work <span>↓</span></a>
+          </div>
+        </div>
+
+        <div class="portrait-stage reveal" data-tilt>
+          <div class="portrait-back asset-frame">
+            <img src="assets/IMG-20240812-WA0004.jpg" alt="Secondary devabdellah portrait" loading="lazy" />
+          </div>
+
+          <div class="portrait-main asset-frame">
+            <img src="assets/IMG-20240812-WA0002.jpg" alt="Main devabdellah portrait" fetchpriority="high" />
+          </div>
+
+          <video
+            class="hero-film"
+            autoplay
+            muted
+            loop
+            playsinline
+            preload="metadata"
+            poster="assets/IMG-20240812-WA0002.jpg"
+            aria-label="Cinematic motion background reel"
+          >
+            <source src="assets/video_antigravity.mp4" type="video/mp4" />
+          </video>
+
+          <div class="portrait-label">
+            <span>devabdellah</span>
+            <span>CREATIVE DEVELOPER</span>
+          </div>
+
+          <div class="floating-note note-one">CRAFT<br /><b>OVER NOISE</b></div>
+          <div class="floating-note note-two"><b>keep going</b></div>
+          <span class="video-badge">ready to go</span>
+
+          <button type="button" class="video-toggle" aria-label="Play hero video">▶ PLAY REEL</button>
+        </div>
+      </section>
+
+      <section class="slice work" id="work" data-index="02">
+        <div class="section-intro reveal">
+          <p class="eyebrow"><span>02</span> SELECTED WORK</p>
+          <h2>Creative systems for <em>modern brands.</em></h2>
+          <p>
+            I turn complex ideas into clean, memorable user experiences — focused on clarity, pacing,
+            and thoughtful motion that feels premium from the first tap to the final frame.
+          </p>
+        </div>
+
+        <div class="showcase reveal">
+          <div class="showcase-heading">
+            <p class="eyebrow"><span>VIDEO SEQUENCE</span> CINEMATIC STORY</p>
+          </div>
+
+          <div class="video-rail">
+            <article class="video-card is-active">
+              <video controls loop playsinline preload="none" poster="assets/IMG-20240812-WA0002.jpg">
+                <source src="assets/Man_speaking_motivational_video_202609031652.mp4" type="video/mp4" />
+              </video>
+              <div class="video-meta">
+                <span>01 / VOICE</span>
+                <strong>Visual rhythm</strong>
+              </div>
+            </article>
+
+            <article class="video-card">
+              <video muted loop playsinline preload="none" poster="assets/IMG-20240812-WA0002.jpg">
+                <source src="assets/video_antigravity.mp4" type="video/mp4" />
+              </video>
+              <div class="video-meta">
+                <span>02 / MOTION</span>
+                <strong>Fluid energy</strong>
+              </div>
+            </article>
+
+            <article class="video-card">
+              <video muted loop playsinline preload="none" poster="assets/IMG-20240812-WA0002.jpg">
+                <source src="assets/Creating_animated_logo_intro_202609031700.mp4" type="video/mp4" />
+              </video>
+              <div class="video-meta">
+                <span>03 / CRAFT</span>
+                <strong>Clean identity</strong>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="skills-grid reveal">
+          <div class="skill-card">
+            <span>01</span>
+            <b>Front-End<br />Development</b>
+          </div>
+          <div class="skill-card">
+            <span>02</span>
+            <b>Responsive<br />Design</b>
+          </div>
+          <div class="skill-card">
+            <span>03</span>
+            <b>Creative<br />Interface Systems</b>
+          </div>
+          <div class="skill-card">
+            <span>04</span>
+            <b>UI / UX<br />Storytelling</b>
+          </div>
+        </div>
+      </section>
+
+      <section class="slice spain-section" id="spain" data-index="03">
+        <div class="spain-scene reveal">
+          <nav class="journey-nav" aria-label="Journey navigation">
+            <a class="journey-logo" href="#identity">Abdelah <span>Journey</span></a>
+            <div class="journey-links">
+              <a href="#identity">Home</a>
+              <a href="#spain">Destinations</a>
+              <a href="#work">How It Works</a>
+              <a href="#contact">Contact</a>
+            </div>
+            <a class="journey-book-link" href="#booking">Book Now <span>↗</span></a>
+          </nav>
+
+          <div class="journey-layout">
+            <div class="route-panel">
+              <div class="eyebrow journey-eyebrow"><span>01</span> THE ROUTE</div>
+              <h2>Morocco <span>to</span><br />Madrid</h2>
+              <p class="route-lede">A considered route through culture, coastlines, and unforgettable places.</p>
+              <div class="route-graph" aria-label="Orange route from Morocco to Madrid">
+                <svg viewBox="0 0 300 210" role="img">
+                  <polyline points="35,176 80,151 114,125 145,93 174,70 207,47 250,25" />
+                  <circle cx="35" cy="176" r="6" /><circle cx="114" cy="125" r="5" /><circle cx="174" cy="70" r="5" /><circle cx="250" cy="25" r="7" />
+                </svg>
+                <div class="route-label route-start">MOROCCO</div>
+                <div class="route-label route-end">MADRID</div>
+              </div>
+              <div class="route-meta"><span>SCENIC ROUTE</span><span>01 — 04</span></div>
+            </div>
+
+            <div class="map-panel">
+              <div class="map-kicker">SPAIN / EUROPE</div>
+              <svg class="spain-map-svg" viewBox="0 0 1000 700" aria-label="Minimal map silhouette of Spain" role="img">
+                <defs>
+                  <linearGradient id="mapCopper" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0" stop-color="#3a1b0d" />
+                    <stop offset="0.55" stop-color="#1a100c" />
+                    <stop offset="1" stop-color="#0b0b0b" />
+                  </linearGradient>
+                </defs>
+                <path class="map-fill" d="M221 146 L278 118 L340 94 L407 88 L474 104 L520 120 L566 125 L627 103 L690 117 L747 148 L782 191 L815 244 L829 299 L785 346 L760 374 L772 420 L742 469 L708 515 L669 548 L600 563 L531 576 L474 594 L409 605 L343 600 L295 580 L256 560 L223 528 L196 490 L186 437 L166 388 L149 348 L157 296 L171 254 L191 211 L205 178 Z" />
+                <path class="map-outline" d="M221 146 L278 118 L340 94 L407 88 L474 104 L520 120 L566 125 L627 103 L690 117 L747 148 L782 191 L815 244 L829 299 L785 346 L760 374 L772 420 L742 469 L708 515 L669 548 L600 563 L531 576 L474 594 L409 605 L343 600 L295 580 L256 560 L223 528 L196 490 L186 437 L166 388 L149 348 L157 296 L171 254 L191 211 L205 178 Z" />
+              </svg>
+              <div class="map-pin map-pin-madrid">MADRID <span></span></div>
+              <div class="map-pin map-pin-barcelona">BARCELONA <span></span></div>
+              <div class="map-caption"><strong>Spain</strong><span>Timeless places. Endless stories.</span></div>
+              <p class="map-description"><strong>From Morocco to Madrid</strong> Experience a carefully guided journey through culture, history, and unforgettable places.</p>
+            </div>
+
+            <aside class="booking-card" id="booking">
+              <div class="booking-card-top"><span>YOUR JOURNEY</span><span class="booking-mark">AJ</span></div>
+              <h2>Book the<br /><em>Journey</em></h2>
+              <div class="booking-destination">Morocco <span>→</span> Madrid</div>
+              <div class="booking-price"><span>$</span>10</div>
+              <p class="booking-note">Reserve your place today.</p>
+              <div class="payment-options">
+                <button type="button"><span>▣</span> Pay by Card</button>
+                <button type="button"><span>✉</span> Confirm by Email</button>
+              </div>
+              <a class="booking-cta" href="mailto:karaouanmouad10@gmail.com?subject=Book%20the%20Journey">Book Now <span>↗</span></a>
+              <small>Secure confirmation after payment.</small>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="slice contact-section" id="contact" data-index="04">
+        <div class="contact-copy reveal">
+          <p class="eyebrow"><span>05</span> WORK WITH ME</p>
+          <h2>Let’s build<br /><em>something real.</em></h2>
+          <p>
+            Open to thoughtful collaborations, polished client work, and projects where clarity,
+            identity, and execution matter.
+          </p>
+
+          <div class="contact-lines">
+            <a href="https://www.instagram.com/hoole__1?igsi=MTAxMXFrZnBnOXlhdA==" target="_blank" rel="noreferrer">
+              <span>INSTAGRAM</span>
+              <strong>@hoole_1</strong>
+            </a>
+            <a href="mailto:karaouanmouad10@gmail.com">
+              <span>EMAIL</span>
+              <strong>karaouanmouad10@gmail.com</strong>
+            </a>
+            <a href="tel:+212706353215">
+              <span>PHONE</span>
+              <strong>0706353215</strong>
+            </a>
+          </div>
+
+          <div class="contact-actions">
+            <a class="button button-primary" href="mailto:karaouanmouad10@gmail.com">Start a conversation <span>↗</span></a>
+            <a class="button button-quiet" href="#identity">Back to the top <span>↑</span></a>
+          </div>
+        </div>
+
+        <aside class="contact-card reveal" aria-label="Availability card">
+          <span class="contact-card-tag">AVAILABLE</span>
+          <strong>devabdellah</strong>
+          <small>Creative direction / front-end</small>
+        </aside>
+      </section>
+    </main>
+
+    <footer>
+      <span>Created by Abdeljabar</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
